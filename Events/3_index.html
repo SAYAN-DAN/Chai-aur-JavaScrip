@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event 3</title>
+  </head>
+  <body>
+    <h1>This is a part two of Events</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+    <script>
+      // *****************************************************************
+      //   const sayDate = function () {
+      //     console.log("Sayan");
+      //   };
+      //   setInterval(sayDate, 1000);
+
+      //   ****************************************************************
+
+        // const sayDate = function (str) {
+        //   console.log(str);
+        // };
+        // setInterval(sayDate, 1000, "hi");
+
+        // ********************************************************************************************************
+
+
+        const sayDate = function(str){
+        console.log(str);
+    }
+
+    const intervalId = setInterval(sayDate, 1000, "hi")
+
+    clearInterval(intervalId)
+
+      // ********************************************************************************************************
+      // const sayDate = function (str) {
+      //   console.log(str);
+      // };
+
+      // // const interValid = setInterval(sayDate, 1000, "hi");
+
+      // document.querySelector("#start").addEventListener("click", function () {
+      //   // setInterval(interValid);
+      //   const interValid = setInterval(sayDate, 1000, "hi");
+
+      //   console.log("start");
+      // });
+
+      // document.querySelector("#stop").addEventListener("click", function () {
+      //   // clearInterval(interValid);
+      //   const interValid = setInterval(sayDate, 1000, "hi");
+
+      //   console.log("stopped");
+      // });
+    // *********************************************************************************************************
+      // const sayDate = function (str) {
+      //   console.log(str);
+      // };
+
+      // let interValid; // Declare the interval variable outside of the event handlers
+
+      // document.querySelector("#start").addEventListener("click", function () {
+      //   // Start the interval and store it in the variable
+      //   interValid = setInterval(sayDate, 1000, "hi");
+      //   console.log("start");
+      // });
+
+      // document.querySelector("#stop").addEventListener("click", function () {
+      //   // Clear the interval using the variable declared outside
+      //   clearInterval(interValid);
+      //   console.log("stopped");
+      // });
+    </script>
+  </body>
+</html>

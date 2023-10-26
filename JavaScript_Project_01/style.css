@@ -1,0 +1,41 @@
+html {
+  margin: 0;
+}
+
+span {
+  display: block;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  /* height: 50%; */
+  height: 400px;
+  text-align: center;
+  background: linear-gradient(#f50202, #100dd1, #0af211, #f2860a, #fce803);
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+}
+
+#grey {
+  background: grey;
+}
+#white {
+  background: white;
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
+#red {
+  background: red;
+}
+#orange {
+  background-color: orange;
+}
